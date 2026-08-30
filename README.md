@@ -99,33 +99,31 @@ The application then returns the predicted mental health score.
 
 ## Project Architecture
 
-```text
-User Input
-    |
-    v
-Web Interface
-(HTML / CSS / JavaScript)
-    |
-    v
-FastAPI Backend
-    |
-    v
-Input Validation
-    |
-    v
-Saved ML Pipeline
-    |
-    v
-Random Forest Regressor
-    |
-    v
-Predicted Mental Health Score
+    User Input
+        |
+        v
+    Web Interface
+    (HTML / CSS / JavaScript)
+        |
+        v
+    FastAPI Backend
+        |
+        v
+    Input Validation
+        |
+        v
+    Saved ML Pipeline
+        |
+        v
+    Random Forest Regressor
+        |
+        v
+    Predicted Mental Health Score
 
-```text
-```
 ## Technologies Used
 
 ### Programming & Machine Learning
+
 - Python
 - Pandas
 - NumPy
@@ -133,50 +131,60 @@ Predicted Mental Health Score
 - Joblib
 
 ### Backend
+
 - FastAPI
 - Pydantic
 - Uvicorn
 
 ### Frontend
+
 - HTML
 - CSS
 - JavaScript
 
 ### Development
+
 - Jupyter Notebook
 - Git
 - GitHub
 
 ## Project Structure
 
-```text
-mental-health-score-prediction/
-│
-├── ML_Project.ipynb
-├── Mental_Health_Model.pkl
-├── Student Social Media And Mental Health Impact.csv
-│
-├── main.py
-├── requirements.txt
-│
-├── index.html
-├── script.js
-├── style.css
-│
-├── ML Project.html
-└── README.md
-```
+    mental-health-score-prediction/
+    |
+    ├── ML_Project.ipynb
+    ├── Mental_Health_Model.pkl
+    ├── Student Social Media And Mental Health Impact.csv
+    |
+    ├── main.py
+    ├── requirements.txt
+    |
+    ├── index.html
+    ├── script.js
+    ├── style.css
+    |
+    ├── ML Project.html
+    └── README.md
+
 ## Running the Project Locally
 
-1. Clone the repository
-git clone https://github.com/yash123-create/mental-health-score-prediction.git
-2. Navigate to the project directory
-cd mental-health-score-prediction
-3. Install the required dependencies
-pip install -r requirements.txt
-4. Start the backend
-uvicorn main:app --reload
-5. Open the web application
+### 1. Clone the repository
+
+    git clone https://github.com/yash123-create/mental-health-score-prediction.git
+
+### 2. Navigate to the project directory
+
+    cd mental-health-score-prediction
+
+### 3. Install the required dependencies
+
+    pip install -r requirements.txt
+
+### 4. Start the backend
+
+    uvicorn main:app --reload
+
+### 5. Open the web application
 
 Open the frontend in a browser and use the prediction interface to enter the required student information.
 
@@ -184,39 +192,37 @@ Open the frontend in a browser and use the prediction interface to enter the req
 
 The complete machine learning workflow follows these stages:
 
-~~~text
-Student Dataset
-      |
-      v
-Data Analysis
-      |
-      v
-Data Preprocessing
-      |
-      v
-Feature Transformation
-      |
-      v
-Train/Test Split
-      |
-      v
-Model Training
-      |
-      v
-Hyperparameter Tuning
-      |
-      v
-Model Evaluation
-      |
-      v
-Saved Model (.pkl)
-      |
-      v
-Web Application
-      |
-      v
-Mental Health Score Prediction
-~~~
+    Student Dataset
+          |
+          v
+    Data Analysis
+          |
+          v
+    Data Preprocessing
+          |
+          v
+    Feature Transformation
+          |
+          v
+    Train/Test Split
+          |
+          v
+    Model Training
+          |
+          v
+    Hyperparameter Tuning
+          |
+          v
+    Model Evaluation
+          |
+          v
+    Saved Model (.pkl)
+          |
+          v
+    Web Application
+          |
+          v
+    Mental Health Score Prediction
 
 ## Key Features
 
@@ -246,7 +252,6 @@ This project is intended for educational and machine learning demonstration purp
 
 **Yash Mehra**
 
-GitHub:  
+GitHub:
+
 https://github.com/yash123-create
-
-
